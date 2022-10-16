@@ -1,4 +1,4 @@
-package com.epam.courses;
+package com.epam.courses.firsttasks12;
 
 
 public class HelloWorld {
@@ -119,8 +119,7 @@ class FibonacciRow {
         }
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int N = 15;
 
         Fibonacci(N);
