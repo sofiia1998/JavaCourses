@@ -13,12 +13,9 @@ public class StudentFaculty extends Student {
 
     StudentFaculty() {System.out.println("Student(w/o parameters)");}
 
-<<<<<<< HEAD
     @Override
     public void ifStudentHasABigFamily() {}
 
     @Override
     public void showAge() {}
-=======
->>>>>>> origin/master
 }

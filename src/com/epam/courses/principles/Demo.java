@@ -20,7 +20,6 @@ public class Demo {
 
         studentGroup.totalInformation(student.getName(), studentGroup.faculty, studentGroup.group);
 
-<<<<<<< HEAD
         Student student1 = new Student(true) {
             @Override
             public void ifStudentHasABigFamily() {
@@ -37,8 +36,5 @@ public class Demo {
         student1.ifStudentHasABigFamily();
 
         student1.showAge();
-
-=======
->>>>>>> origin/master
     }
 }

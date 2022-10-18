@@ -12,9 +12,6 @@ public interface AgeOfTheStudent {
         return (int) years;
     }
 
-<<<<<<< HEAD
     void showAge();
 
-=======
->>>>>>> origin/master
 }
