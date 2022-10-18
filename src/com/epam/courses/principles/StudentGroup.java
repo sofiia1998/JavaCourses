@@ -12,6 +12,10 @@ public class StudentGroup extends StudentFaculty {
     StudentGroup() {System.out.println("Student(w/o parameters)");}
 
     public void totalInformation(String name, String faculty, String group) {
+<<<<<<< HEAD
         System.out.format("To sum up, %s is from %s faculty and %s group.", name, faculty, group);
+=======
+        System.out.format("To sum up, %s is from %s faculty and %s group", name, faculty, group);
+>>>>>>> origin/master
     }
 }
