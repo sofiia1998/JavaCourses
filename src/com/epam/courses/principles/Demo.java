@@ -20,5 +20,22 @@ public class Demo {
 
         studentGroup.totalInformation(student.getName(), studentGroup.faculty, studentGroup.group);
 
+        Student student1 = new Student(true) {
+            @Override
+            public void ifStudentHasABigFamily() {
+                System.out.println("\nIs the student from a big family? " + bigFamily);
+            }
+
+            @Override
+            public void showAge() {
+                System.out.println(findDifference(1998, 8, 26));
+
+            }
+        };
+
+        student1.ifStudentHasABigFamily();
+
+        student1.showAge();
+
     }
 }

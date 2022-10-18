@@ -40,5 +40,7 @@ public abstract class Student implements AgeOfTheStudent{
         this.bigFamily = bigFamily;
     }
 
+    public abstract void ifStudentHasABigFamily();
+
 
 }
