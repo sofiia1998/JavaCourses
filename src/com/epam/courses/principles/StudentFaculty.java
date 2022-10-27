@@ -5,7 +5,7 @@ public class StudentFaculty extends Student {
 
     String faculty;
 
-    StudentFaculty(boolean bigFamily, String faculty) {
+    public StudentFaculty(boolean bigFamily, String faculty) {
         super(bigFamily);
         this.faculty = faculty;
         //System.out.println("Student(with parameters)");
@@ -18,4 +18,13 @@ public class StudentFaculty extends Student {
 
     @Override
     public void showAge() {}
+
+    @Override
+    public String toString() {
+        return "StudentFaculty{" +
+                "faculty='" + faculty + '\'' +
+                ", bigFamily=" + bigFamily +
+                ", country='" + country + '\'' +
+                "}\n";
+    }
 }

@@ -1,0 +1,4 @@
+StudentFaculty{faculty='Economic', bigFamily=true, country='Ukraine'}
+StudentGroup{group='EKT1', faculty='Economic', bigFamily=false}
+StudentFaculty{faculty='Economic', bigFamily=true, country='Ukraine'}
+StudentGroup{group='EKT1', faculty='Economic', bigFamily=false}

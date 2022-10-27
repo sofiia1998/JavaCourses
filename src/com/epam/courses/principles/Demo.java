@@ -7,6 +7,9 @@ public class Demo {
         Student student = new StudentFaculty(true, "Economic");
         StudentGroup studentGroup = new StudentGroup(false, "Economic", "EKT1");
 
+        System.out.println(studentGroup);
+        System.out.println(studentGroup);
+
         int a = student.findDifference(1998, 8, 26);
         student.setName("Stepan");
         student.printStudik();
