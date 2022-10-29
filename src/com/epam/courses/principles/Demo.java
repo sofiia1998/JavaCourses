@@ -1,10 +1,13 @@
 package com.epam.courses.principles;
 
+import java.util.*;
+
 
 public class Demo {
     public static void main(String[] args) {
 
         Student student = new StudentFaculty(true, "Economic");
+        Student student2 = new StudentFaculty(true, "Physic");
         StudentGroup studentGroup = new StudentGroup(false, "Economic", "EKT1");
 
         System.out.println(studentGroup);
@@ -39,5 +42,8 @@ public class Demo {
         student1.ifStudentHasABigFamily();
 
         student1.showAge();
+
+        System.out.println(student.equals(student2));
+
     }
 }
